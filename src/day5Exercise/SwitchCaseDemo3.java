@@ -9,16 +9,16 @@ public class SwitchCaseDemo3 {
         int choice = input.nextInt();
 
         switch (choice) {
-            case 'add':
+            case 1:
                 System.out.println("this is addition");
                 break;
-            case 'sub':
+            case 2:
                 System.out.println("this is subtraction");
                 break;
-            case 'mul':
+            case 3:
                 System.out.println("this is multiplication");
                 break;
-            case 'div':
+            case 4:
                 System.out.println("this is division");
                 break;
             default:
